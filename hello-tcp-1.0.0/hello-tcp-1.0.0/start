@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# Eventually netcat will bind to $GREETING_BIND_PORT when it is supported
-echo "Welcome to Typesafe ConductR" | nc -l 9999
