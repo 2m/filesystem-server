@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+MESSAGE=${MESSAGE:-"Default message!"}
+while true; do echo "O Hi! $MESSAGE" | nc -l -p $WELCOME_BIND_PORT; done
